@@ -1,0 +1,384 @@
+/*font-family: "Oxygen", sfont-family: "Montserrat 200 400 800"" "Ubuntu" font-style: italic;*/ 
+
+
+html{box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(251, 253, 253);
+
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Montserrat" ;
+    font-weight: 800;
+    color: rgb(13, 14, 12);
+}
+
+p{
+    font-family:"Montserrat";
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+a{text-decoration: none;
+ font-size: 3rem;
+ font-family: "Montserrat";
+ font-weight: 800;
+ color: white;
+ text-transform: uppercase;
+ transition: fontsize .3 ease-in-out;
+}
+
+
+
+nav a:hover{color: rgb(238, 241, 53);
+    font-size: 4rem;
+
+
+}
+
+h2 , h3 { text-align: center;
+    font-family:"Montserrat" ;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+
+/*clases*/
+
+
+/*header*/
+.logoimg{width: 20rem;
+    height: 20rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,175,75,0.03);
+    background: -moz-linear-gradient(top, rgba(255,175,75,0.03) 0%, rgba(255,170,64,0.03) 17%, rgba(255,155,30,0.63) 70%, rgba(255,146,10,0.63) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,175,75,0.03)), color-stop(17%, rgba(255,170,64,0.03)), color-stop(70%, rgba(255,155,30,0.63)), color-stop(100%, rgba(255,146,10,0.63)));
+    background: -webkit-linear-gradient(top, rgba(255,175,75,0.03) 0%, rgba(255,170,64,0.03) 17%, rgba(255,155,30,0.63) 70%, rgba(255,146,10,0.63) 100%);
+    background: -o-linear-gradient(top, rgba(255,175,75,0.03) 0%, rgba(255,170,64,0.03) 17%, rgba(255,155,30,0.63) 70%, rgba(255,146,10,0.63) 100%);
+    background: -ms-linear-gradient(top, rgba(255,175,75,0.03) 0%, rgba(255,170,64,0.03) 17%, rgba(255,155,30,0.63) 70%, rgba(255,146,10,0.63) 100%);
+    background: linear-gradient(to bottom, rgba(255,175,75,0.03) 0%, rgba(255,170,64,0.03) 17%, rgba(255,155,30,0.63) 70%, rgba(255,146,10,0.63) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=0 );
+    
+}
+
+/*nav */
+
+.contenedor_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: rgb(10, 22, 22);
+    gap: 3rem;
+    border-radius: 1rem;
+    margin-top: 0;
+    margin-bottom: 10rem;
+}
+.contenedor_nav--enlace{
+    color: rgb(236, 40, 40);
+}
+
+.descuento{
+    background-color: rgb(245, 206, 100);
+    height: 4rem;
+    
+}
+
+.descuento p{font-size: 1.9rem;
+    
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 400;}
+    
+main{max-width: 80%;
+        margin: 15rem auto;
+        ;
+        
+    }
+    
+    
+ /*footer*/
+    
+footer{
+        padding: 1rem 0;
+        margin: 2rem 0;
+        background-color: rgb(225, 228, 66);
+        
+    }
+    
+.text_footer{
+   color: rgb(2, 1, 1);
+   font-size: 1.6rem;
+   font-family: "Oxygen";
+   font-weight: 900;
+   text-align: center;
+    }
+    
+    .redes_footer{display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .iconos_footer{
+        margin: 2rem 2rem
+    }
+    
+.text_center--footer{text-align: center;
+font-size: 1.5rem;
+font-weight: 800;
+text-transform: uppercase;
+}
+
+
+/*nuestros productos*/ 
+
+.grid{display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:  55rem 55rem 55rem ;
+    justify-content: center;
+    gap:1rem;
+
+}
+
+.producto{
+    background-color: rgba(151, 226, 189, 0.0);
+    text-align: center;
+    border: 0.3rem solid;
+    border-color: rgb(100, 100, 129);
+    border-radius: 2rem;
+
+}
+
+.producto_imagen{
+    width: 100%;
+    height: 30rem;
+    display: block;
+    margin: 2rem auto;
+    object-fit: contain;
+}
+
+
+
+.producto_texto{color: rgb(5, 5, 4);
+    font-size: 2rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+
+}
+
+.producto_precio{
+    font-size: 1.8rem;
+    color: rgb(39, 235, 104);
+    font-family: "Montserrat";
+    font-weight: 800;
+
+}
+
+.text_envios{color: black;
+font-size: 1.2rem;
+font-family: "Montserrat";
+font-weight: 700;}
+
+p span{text-decoration: line-through;
+color: rgb(92, 80, 80);
+font-size: 1.8rem;
+font-family: "Montserrat" ;
+font-style: italic;
+padding: 1rem;
+}
+
+/* HTML PRODUCTOS*/
+.width_producto{
+  width: 100%;
+}
+
+.lanzamiento{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 2rem;
+}
+
+.formulario{display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+
+}
+
+.formulario__campo{
+    border-color: black;
+    border: 0.2rem solid;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.4rem;
+    font-family: "Montserrat";
+    padding: 1rem;
+
+}
+
+
+.formulario__enviar{background-color: yellow;
+color: rgb(0, 0, 0);
+font-size: 2rem;
+text-align: center;
+font-family: "Montserrat";
+font-weight: 400;
+border: none;
+padding: 1rem;
+grid-column: 1/3;
+}
+
+.formulario__enviar:hover{
+    cursor: pointer;
+    background-color: rgb(238, 147, 44);
+}
+
+
+
+/*nosotros*/
+
+.texto_nosotros{
+    width:100%;
+}
+
+.texto_nosotros--font{
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.nosotros{display: grid;
+grid-template-columns: repeat(2,1fr);
+column-gap: 3rem;}
+
+.nosotros_img{width: 100%;
+height: auto;}
+
+
+
+@media (max-width: 768px){
+
+    /*.nosotros_img{grid-row: 1/2;
+    grid-template-rows: repeat(2,1fr);
+    }*/
+
+    .nosotros{display: flex;
+        flex-direction:  column;}
+
+    .texto_nosotros{
+
+        width:100%;
+        
+    }
+
+    
+}
+
+
+@media (max-width: 480px){
+
+    a{font-size: 2rem;}
+
+    nav a:hover{font-size: 2.5rem;}
+    header{margin: 2rem auto;}
+    h1{font-size: 2rem !important;}
+
+    h2{font-size: 2.5rem;}
+
+    main{width: 80%;}
+
+    p{font-size: 1rem;}
+
+    .descuento{height: 3rem;}
+    .nosotros{display: flex;
+    flex-direction:  column;
+    }
+    .grid{display: block;
+    }
+
+   .texto_span{font-size: 1rem;}
+
+   
+
+   .texto_nosotros--font{font-size: 2rem;}
+
+
+   .producto_imagen{width: 100%;}
+
+    {
+        font-size: 1.5rem;
+    }
+    .producto_precio{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .text_footer{font-size: 1.3rem;
+    padding: 0;
+    margin: 0;
+    }
+
+    .iconos_mobile{width:5rem;
+        height: 5rem;
+        margin: 1rem 3rem;
+    }
+    .producto{margin: 1rem;}
+
+    .formulario__enviar{font-size: 1rem;}
+
+    .formulario__enviar{font-size: 0.8rem;}
+
+    .lanzamiento{display: block;}
+
+    
+
+
+}
+
+@media (max-width: 880px) {
+    h1{font-size: 3rem;}
+
+    main{max-width: 75%;}
+
+    .producto_texto{
+        font-size: 1.5rem;
+    }
+    .producto_precio{
+        font-size: 1.4rem;
+    }
+    p span{font-size: 1.2rem;
+
+    }
+
+    .grid{grid-template-columns: repeat(2,1fr)}
+    .texto_nosotros--font{font-size: 2.2rem;}
+
+}
+/* iconos seccion nosotros */
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icono{
+    width: 20rem ;
+    height: 20rem;
+}
+.section_nosotros{
+    margin: 0 auto;
+    margin-top: 15rem;
+}
+
+
+.texto_span{color: RED;
+text-decoration: none;
+font-family: "Montserrat" ;}
+
